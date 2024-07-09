@@ -1,0 +1,346 @@
+[
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 1,
+    "fields": {
+      "title": "My very first Cookbook",
+      "description": "In a tiny world, there lives a tiny worm.",
+      "created_at": "2024-06-06T17:53:38.384Z",
+      "updated_at": "2024-06-13T19:04:06.428Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 2,
+    "fields": {
+      "title": "Applebook",
+      "description": "Bananas",
+      "created_at": "2024-06-11T10:17:21.604Z",
+      "updated_at": "2024-06-11T10:17:21.604Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 3,
+    "fields": {
+      "title": "Applebook 2",
+      "description": "Bananas",
+      "created_at": "2024-06-11T10:17:32.767Z",
+      "updated_at": "2024-06-11T10:17:32.767Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 4,
+    "fields": {
+      "title": "Applebook 3",
+      "description": "Bananas",
+      "created_at": "2024-06-11T10:20:00.748Z",
+      "updated_at": "2024-06-11T10:20:00.748Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 5,
+    "fields": {
+      "title": "Applebook 4",
+      "description": "Bananas",
+      "created_at": "2024-06-11T10:27:49.307Z",
+      "updated_at": "2024-06-11T10:27:49.307Z",
+      "author": 3
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 6,
+    "fields": {
+      "title": "Banananas 1",
+      "description": "Applepies and Gingerbreads",
+      "created_at": "2024-06-11T11:16:40.266Z",
+      "updated_at": "2024-06-11T11:16:40.266Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 7,
+    "fields": {
+      "title": "Banananas 2",
+      "description": "Applepies and Gingerbreads",
+      "created_at": "2024-06-11T11:20:02.157Z",
+      "updated_at": "2024-06-11T11:20:02.157Z",
+      "author": 7
+    }
+  },
+  {
+    "model": "cookbooks.cookbook",
+    "pk": 8,
+    "fields": {
+      "title": "Banananas 3",
+      "description": "Applepies and Gingerbreads",
+      "created_at": "2024-06-11T15:12:30.536Z",
+      "updated_at": "2024-06-11T15:12:30.536Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "favorites.favorite",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "recipe": null,
+      "cookbook": 1
+    }
+  },
+  {
+    "model": "favorites.favorite",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "recipe": null,
+      "cookbook": 3
+    }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "Tomota"
+    }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "Bread"
+    }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "Vanilla"
+    }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "Purple Snail"
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 1,
+    "fields": {
+      "title": "Beef Burger",
+      "description": "Order beefs and burger them.",
+      "created_at": "2024-06-06T16:00:18.404Z",
+      "updated_at": "2024-06-06T17:58:37.870Z",
+      "author": 1,
+      "cookbook": [
+        1
+      ],
+      "ingredients": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 2,
+    "fields": {
+      "title": "A kind of recipe",
+      "description": "This and thatsy!",
+      "created_at": "2024-06-08T14:28:15.913Z",
+      "updated_at": "2024-06-08T17:30:47.945Z",
+      "author": 1,
+      "cookbook": [
+        1
+      ],
+      "ingredients": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 3,
+    "fields": {
+      "title": "A kind of recipe",
+      "description": "This and that",
+      "created_at": "2024-06-08T15:47:44.076Z",
+      "updated_at": "2024-06-08T15:47:44.076Z",
+      "author": 1,
+      "cookbook": [
+        1
+      ],
+      "ingredients": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 5,
+    "fields": {
+      "title": "A kind of recipe",
+      "description": "This and that",
+      "created_at": "2024-06-08T15:48:04.340Z",
+      "updated_at": "2024-06-08T15:48:04.340Z",
+      "author": 1,
+      "cookbook": [
+        1
+      ],
+      "ingredients": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 6,
+    "fields": {
+      "title": "Erdbaer",
+      "description": "Lorem Erdbaer",
+      "created_at": "2024-06-08T16:03:32.207Z",
+      "updated_at": "2024-06-08T16:03:32.207Z",
+      "author": 1,
+      "cookbook": [],
+      "ingredients": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$s4xdFVbjlcKIUz2106JQzu$gizXUZlOfZD0yoXBd9zbmcQKSwoiEVMfk+p7Y7RpStc=",
+      "last_login": "2024-06-11T10:26:46.684Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.admin",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-06-04T21:40:38.549Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 2,
+    "fields": {
+      "password": "admin",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Erdbaer",
+      "first_name": "",
+      "last_name": "",
+      "email": "Lorem1@a.a",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-08T16:05:03.477Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 3,
+    "fields": {
+      "password": "admin",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Reiner",
+      "first_name": "",
+      "last_name": "",
+      "email": "Lorem1@a.a1",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-08T16:05:21.027Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 4,
+    "fields": {
+      "password": "admin",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Hanswurst",
+      "first_name": "",
+      "last_name": "",
+      "email": "Lorem1@a.a2",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-08T16:05:29.053Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 5,
+    "fields": {
+      "password": "admin",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Superuser",
+      "first_name": "",
+      "last_name": "",
+      "email": "Lorem1@a.a4",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-08T16:05:41.951Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 6,
+    "fields": {
+      "password": "admin",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Droptable",
+      "first_name": "",
+      "last_name": "",
+      "email": "Lorem1@a.ag",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-08T16:06:01.671Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$3XEaLs6Zpa6M5WQBpH3dvU$r3N86881FuiGhi9m7KRsByGKsO5/7fQFt4cssK9qZu8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Reiner2",
+      "first_name": "",
+      "last_name": "",
+      "email": "wdwede@wede.dw",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-11T11:19:34.212Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
